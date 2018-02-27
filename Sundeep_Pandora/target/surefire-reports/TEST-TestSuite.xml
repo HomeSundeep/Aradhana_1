@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="235.282" tests="4" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/ssingh/App/Sundeep_Pandora"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/ssingh/.jenkins/workspace/Sundeep"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/67/91ljs8hj735frv9vyf53gf2w000621/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/ssingh/Documents/apache-maven-3.5.2/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ssingh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/ssingh/Documents/apache-maven-3.5.2/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.11.6"/>
+    <property name="library.jansi.path" value="/Users/ssingh/Documents/apache-maven-3.5.2/lib/jansi-native"/>
+    <property name="user.home" value="/Users/ssingh"/>
+    <property name="user.timezone" value="US/Pacific"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="ssingh"/>
+    <property name="java.class.path" value="/Users/ssingh/Documents/apache-maven-3.5.2/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f /Users/ssingh/App/Sundeep_Pandora/pom.xml test -PAndroidapps"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="/Users/ssingh/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/ssingh/Documents/apache-maven-3.5.2"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="Pandora_Login" classname="SundeepFramework.Automation_2" time="26.091"/>
+  <testcase name="Pandora_Test" classname="SundeepFramework.Automation_2" time="137.162">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;&#10;System info: host: &apos;ssingh-m01&apos;, ip: &apos;2620:106:e00f:f872:54b7:60cb:d1cb:22f3&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities [{app=/Users/ssingh/App/Sundeep_Pandora/src/android-dev-1802.1RC2-0-g3226e20072.apk, appPackage=com.pandora.android, deviceScreenSize=1440x2560, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.pandora.android, appWaitActivity=com.pandora.android.Main, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.pandora.android.Main, desired={app=/Users/ssingh/App/Sundeep_Pandora/src/android-dev-1802.1RC2-0-g3226e20072.apk, newCommandTimeout=100, platformName=android, deviceName=Sundeep}, newCommandTimeout=100, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86_64, deviceManufacturer=unknown, platformName=LINUX}]&#10;Session ID: e0238969-7b79-4ec4-bceb-bfa9d154e0d7&#10;*** Element info: {Using=xpath, value=//android.widget.TextView[@text=&apos;Delete station&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ssingh-m01', ip: '2620:106:e00f:f872:54b7:60cb:d1cb:22f3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/ssingh/App/Sundeep_Pandora/src/android-dev-1802.1RC2-0-g3226e20072.apk, appPackage=com.pandora.android, deviceScreenSize=1440x2560, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.pandora.android, appWaitActivity=com.pandora.android.Main, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.pandora.android.Main, desired={app=/Users/ssingh/App/Sundeep_Pandora/src/android-dev-1802.1RC2-0-g3226e20072.apk, newCommandTimeout=100, platformName=android, deviceName=Sundeep}, newCommandTimeout=100, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86_64, deviceManufacturer=unknown, platformName=LINUX}]
+Session ID: e0238969-7b79-4ec4-bceb-bfa9d154e0d7
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Delete station']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:140)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at SundeepFramework.Automation_2.Delete_Station(Automation_2.java:202)
+	at SundeepFramework.Automation_2.Pandora_Test(Automation_2.java:182)
+</failure>
+    <system-out><![CDATA[Coachmark Dismissed
+Hamburger Menu Identified and clicked
+Settings Menu Identified and clicked
+Station Menu Identified and clicked
+Browse Menu Identified and clicked
+User is able to scroll brose page sucessfully
+STATION PLAYED SUCESSFULLY
+Coachmark Dismissed
+System Paused Sucessfully
+System Resumed Sucessfully
+Track Thumb Down Sucessfully
+]]></system-out>
+  </testcase>
+  <testcase name="Sundeep" classname="SundeepFramework.Automation_2" time="0"/>
+  <testcase name="Pandora_LogoutC" classname="SundeepFramework.Automation_2" time="72.029">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;&#10;System info: host: &apos;ssingh-m01&apos;, ip: &apos;2620:106:e00f:f872:54b7:60cb:d1cb:22f3&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities [{app=/Users/ssingh/App/Sundeep_Pandora/src/android-dev-1802.1RC2-0-g3226e20072.apk, appPackage=com.pandora.android, deviceScreenSize=1440x2560, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.pandora.android, appWaitActivity=com.pandora.android.Main, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.pandora.android.Main, desired={app=/Users/ssingh/App/Sundeep_Pandora/src/android-dev-1802.1RC2-0-g3226e20072.apk, newCommandTimeout=100, platformName=android, deviceName=Sundeep}, newCommandTimeout=100, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86_64, deviceManufacturer=unknown, platformName=LINUX}]&#10;Session ID: e0238969-7b79-4ec4-bceb-bfa9d154e0d7&#10;*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(text(&quot;version 1802.1&quot;));}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ssingh-m01', ip: '2620:106:e00f:f872:54b7:60cb:d1cb:22f3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/ssingh/App/Sundeep_Pandora/src/android-dev-1802.1RC2-0-g3226e20072.apk, appPackage=com.pandora.android, deviceScreenSize=1440x2560, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.pandora.android, appWaitActivity=com.pandora.android.Main, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.pandora.android.Main, desired={app=/Users/ssingh/App/Sundeep_Pandora/src/android-dev-1802.1RC2-0-g3226e20072.apk, newCommandTimeout=100, platformName=android, deviceName=Sundeep}, newCommandTimeout=100, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86_64, deviceManufacturer=unknown, platformName=LINUX}]
+Session ID: e0238969-7b79-4ec4-bceb-bfa9d154e0d7
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(text("version 1802.1"));}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:32)
+	at SundeepFramework.Automation_2.Pandora_LogoutC(Automation_2.java:216)
+</failure>
+  </testcase>
+</testsuite>

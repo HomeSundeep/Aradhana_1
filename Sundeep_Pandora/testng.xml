@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name= "PandoraTest">
+<test name="Smoke Testcases">
+<classes>
+<class name="SundeepFramework.Automation_2" />
+</classes>
+
+</test>
+</suite>

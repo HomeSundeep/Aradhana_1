@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [PandoraTest]">
+  <test name="Smoke Testcases(failed)">
+    <classes>
+      <class name="SundeepFramework.Automation_2">
+        <methods>
+          <include name="Pandora_LogoutC"/>
+          <include name="Pandora_Test"/>
+        </methods>
+      </class> <!-- SundeepFramework.Automation_2 -->
+    </classes>
+  </test> <!-- Smoke Testcases(failed) -->
+</suite> <!-- Failed suite [PandoraTest] -->

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name= "PandoraTest">
+<test name="Smoke Testcases">
+<packages>
+<package name="SundeepFramework" />
+</packages>
+
+</test>
+</suite>
